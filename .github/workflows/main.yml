@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: gentlemates
-        password: ${{ secrets.FTP_PASSWORDS}}
+        password: ${{ secrets.FTP_PASSWORD}}
         server-dir : public_html/
